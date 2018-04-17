@@ -8,11 +8,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.A5</string>
+    <string>com.yourcompany.PPM</string>
     <key>CFBundleName</key>
-    <string>A5</string>
+    <string>PPM</string>
     <key>CFBundleDisplayName</key>
-    <string>A5</string>
+    <string>PPM</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>
@@ -29,17 +29,17 @@
     <array>
       <dict>
         <key>name</key>
-        <string>yourcompany: A5</string>
+        <string>yourcompany: PPM</string>
         <key>description</key>
-        <string>A5</string>
+        <string>PPM</string>
         <key>factoryFunction</key>
-        <string>A5AUFactory</string>
+        <string>PPMAUFactory</string>
         <key>manufacturer</key>
         <string>Manu</string>
         <key>type</key>
         <string>aufx</string>
         <key>subtype</key>
-        <string>Cfar</string>
+        <string>Jzkm</string>
         <key>version</key>
         <integer>65536</integer>
       </dict>

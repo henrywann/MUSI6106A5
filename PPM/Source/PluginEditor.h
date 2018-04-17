@@ -16,11 +16,11 @@
 //==============================================================================
 /**
 */
-class A5AudioProcessorEditor  : public AudioProcessorEditor
+class PpmAudioProcessorEditor  : public AudioProcessorEditor
 {
 public:
-    A5AudioProcessorEditor (A5AudioProcessor&);
-    ~A5AudioProcessorEditor();
+    PpmAudioProcessorEditor (PpmAudioProcessor&);
+    ~PpmAudioProcessorEditor();
 
     //==============================================================================
     void paint (Graphics&) override;
@@ -29,7 +29,7 @@ public:
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
-    A5AudioProcessor& processor;
+    PpmAudioProcessor& processor;
 
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (A5AudioProcessorEditor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PpmAudioProcessorEditor)
 };

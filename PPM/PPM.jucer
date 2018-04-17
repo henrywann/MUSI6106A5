@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT name="A5" projectType="audioplug" buildStandalone="1" jucerVersion="5.3.1"
-              pluginFormats="buildStandalone">
-  <MAINGROUP id="fsO0i2" name="A5">
-    <GROUP id="{168FC16F-EF2C-F966-4ADE-2178122B484E}" name="Source">
-      <FILE id="yqOc7M" name="PluginProcessor.cpp" compile="1" resource="0"
+<JUCERPROJECT name="PPM" projectType="audioplug" buildStandalone="1" jucerVersion="5.3.1">
+  <MAINGROUP id="kDKbDz" name="PPM">
+    <GROUP id="{0F884AA4-EB52-5220-15FA-A8F8135003EB}" name="Source">
+      <FILE id="fabVmA" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="GqWR2m" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="ZrE1mv" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
-      <FILE id="Zitfmz" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="Ssl7W6" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="fFJaGq" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="g0wC6R" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
-    <FILE id="liVv3X" name="MeterComponent.cpp" compile="1" resource="0"
+    <FILE id="Pr5QvG" name="MeterComponent.cpp" compile="1" resource="0"
           file="Source/MeterComponent.cpp"/>
-    <FILE id="jX1fB1" name="MeterComponent.h" compile="0" resource="0"
+    <FILE id="qGvENe" name="MeterComponent.h" compile="0" resource="0"
           file="Source/MeterComponent.h"/>
   </MAINGROUP>
   <LIVE_SETTINGS>

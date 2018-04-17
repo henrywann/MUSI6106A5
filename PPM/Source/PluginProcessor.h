@@ -15,12 +15,12 @@
 //==============================================================================
 /**
 */
-class A5AudioProcessor  : public AudioProcessor
+class PpmAudioProcessor  : public AudioProcessor
 {
 public:
     //==============================================================================
-    A5AudioProcessor();
-    ~A5AudioProcessor();
+    PpmAudioProcessor();
+    ~PpmAudioProcessor();
 
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
@@ -57,5 +57,5 @@ public:
 
 private:
     //==============================================================================
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (A5AudioProcessor)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (PpmAudioProcessor)
 };
